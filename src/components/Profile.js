@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Feed = () => {
+const Profile = () => {
 
     useEffect(() => {
-        console.log('feed >>> useeffect')
+        console.log('profile >>> useeffect')
     },[])
-    
+
     return (
         <div>
             
@@ -13,4 +13,4 @@ const Feed = () => {
     )
 }
 
-export default Feed
+export default Profile

@@ -1,6 +1,11 @@
 import React from 'react'
 
 const Signup = () => {
+
+    useEffect(() => {
+        console.log('signup >>> useeffect')
+    },[])
+
     return (
         <div>
             
